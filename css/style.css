@@ -183,7 +183,7 @@ h1{
 
 .icons li a{
     text-decoration: none;
-    font-size: 60px;
+    font-size: 50px;
     /* color: rgba(0, 100, 0); */
     color: rgba(245, 245, 245, 0.7);
     transition: 0.2s;
