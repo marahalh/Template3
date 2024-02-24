@@ -1,0 +1,682 @@
+body {
+
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+/* navbar */
+.header {
+    z-index: 10;
+    background-color: rgba(0, 80, 0, 0.7);
+
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+
+.header a {
+    color: whitesmoke;
+}
+
+.logo-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #166d44;
+    background-image: linear-gradient(80deg, red 35%,whitesmoke 60%,#25c078 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    background-image: linear-gradient(80deg, red 35%,whitesmoke 60%,#25c078 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.navbar a,
+.header-btn {
+
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.collapse a:hover,
+.collapse .drop:focus {
+   /*  transform: scale(1.1); */
+    color: whitesmoke;
+}
+
+.collapse a:focus {
+    color: whitesmoke;
+}
+
+.section-header {
+    background-color: green;
+}
+
+.header-btn:hover {
+    opacity: 0.5;
+}
+
+.scale-nav:hover .drop-1 {
+    color: whitesmoke;
+    font-weight: bold;
+    transform: scale(1.1, 1.1);
+
+}
+.scale-nav:hover .drop-2 {
+    background-image: linear-gradient(80deg, red 35%,whitesmoke 60%,#25c078 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.1, 1.1);
+
+}
+.scale-nav:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.login-modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+.modal-title {
+    font-weight: bold !important;
+}
+
+.modal-body {
+    background-color: rgb(0, 0, 0, 0.2);
+    color: black
+}
+
+.login-msg {
+    color: rgb(81, 5, 5);
+}
+
+.form-switch .form-check-input:focus {
+    border-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.form-switch .form-check-input:checked {
+    background-color: green;
+    border-color: green;
+    border: none;
+}
+
+.login-btn {
+    border: 1px solid black;
+}
+
+.login-footer {
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid black;
+    margin: auto;
+}
+
+.dropdown-menu {
+    background-color: rgba(245, 245, 245, 0.9);
+    z-index: 2;
+
+}
+
+.dropdown-item {
+    color: black !important;
+    font-weight: normal !important;
+}
+
+.dropdown-item:hover {
+    transform: scale(1, 1) !important;
+}
+
+
+/*  */
+
+.text {
+    background-color: rgba(245, 245, 245, 0.8);
+}
+
+/* welcome */
+
+.welcome {
+    background-color: rgba(245, 245, 245, 0.5)
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #25c078;
+    
+}
+
+.welcome button {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* side navbar */
+.side-nav{
+
+    top:25vh !important;
+    z-index:5;
+}
+
+.nav{
+    right: 3.5%;
+
+}
+
+
+.icons li a{
+    text-decoration: none;
+    font-size: 60px;
+    /* color: rgba(0, 100, 0); */
+    color: rgba(245, 245, 245, 0.7);
+    transition: 0.2s;
+}
+
+.icons li a:hover, .icons li a:focus {
+    transform: scale(1.2);
+    color: rgba(245, 245, 245, 1);
+}
+
+.shadow {
+    box-shadow: -5px 5px 30px 0 green !important;
+}
+
+/* h1{
+   
+       border: 2px solid green;
+       box-shadow: -2px 2px 5px 2px green !important;
+       border-radius: 50px;
+       background-repeat: no-repeat;
+       
+   }
+    */
+.title-hr {
+    border: 2px solid greenyellow;
+    box-shadow: -2px 2px 5px 2px greenyellow !important;
+    margin: auto;
+}
+
+/* accordion */
+.accordion-cus {
+
+    background-color: rgba(245, 245, 245, 0.5);
+    color: whitesmoke;
+    box-shadow: none !important;
+}
+
+.accordion-cus h2 button {
+    padding-left: 20px;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.accordion-cus:not(.collapsed) {
+    color: whitesmoke;
+
+    background-color: rgba(245, 245, 245, 0.3);
+}
+
+.accordion-cus .collapsed {
+    color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.3);
+}
+
+/* .accordion-cus .collapsed{
+       background-color: green;
+   } */
+.accordion-cus:focus {
+    background-color: rgb(25, 135, 84);
+    outline: none;
+}
+
+
+/*  translate */
+.title2{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.translate-cus {
+    font-size: 20px;
+/*     background-color: rgb(135, 134, 134);
+ */    color: whitesmoke;
+
+}
+
+.translate-cus-text:focus {
+    width: 100%;
+    box-shadow: -1px 5px 10px 0 green !important;
+    outline: none;
+}
+
+.translate-cus-modal {
+    color: rgba(0, 0, 0);
+    background-color: rgba(245, 245, 245);
+    border: 1px solid whitesmoke;
+}
+
+/* grid*/
+.service-btn {
+    z-index: 2;
+}
+
+.service {
+    background-color: rgba(245, 245, 245, 0.5);
+    border-radius: 30px;
+}
+
+.service::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(245, 245, 245, 0.1);
+    opacity: 0.5;
+    transition: 2s;
+
+
+}
+
+.service:hover::after {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0.1);
+
+    opacity: 1;
+
+}
+
+.service::before {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    bottom: 0;
+    right: 0;
+
+    background-color: rgba(245, 245, 245, 0.1);
+    opacity: 0.5;
+    transition: 2s;
+
+
+}
+
+.service:hover::before {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0.1);
+
+    opacity: 1;
+
+}
+
+.service-btn-cus {
+    transition: 0.2s;
+    flex: 1;
+}
+
+.service:hover .service-btn-cus {
+    background-color: #166d44;
+
+
+}
+
+.service h5 {
+    flex: 3
+}
+
+/*thanks card*/
+
+.card-img-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(158, 158, 158, 0.1);
+    transition: 0.2s;
+
+}
+
+
+.oval-img {
+    width: 120px;
+    height: 160px;
+    background: #a84909;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    top: 55%
+}
+
+.rounded-10 {
+    border-radius: 2rem;
+}
+
+.thanks-card,
+.card-img,
+.card-img-overlay {
+    transition: 0.2s;
+    border-radius: 20px;
+
+}
+
+
+
+.thanks-card:hover {
+    transform: scale(0.89, 0.89);
+
+}
+
+.thanks-card:hover .card-img-overlay {
+    background-color: rgba(0, 245, 0, 0.1);
+    padding-top: 50px;
+
+}
+
+
+.tooltip .tooltip-inner{
+    background-color: red !important;
+    /*!important is not necessary if you place custom.css at the end of your css calls. For the purpose of this demo, it seems to be required in SO snippet*/
+    color: black !important
+}
+
+
+
+/* news card */
+.news-card {
+     height: 300px;
+    border-radius: 20px;
+
+}
+
+.bg-right {
+    box-shadow: -5px 5px 20px 0 rgba(0, 245, 0, 0.2) !important;
+    background-image: linear-gradient(to right, rgba(0, 245, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.bg-left {
+    box-shadow: -5px 5px 20px 0 rgba(245, 0, 0, 0.2) !important;
+    background-image: linear-gradient(to left, rgba(245, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.img-right {
+    width: 100%;
+    height: 100%;
+
+    transition: 1s;
+}
+
+.img-left {
+    width: 100%;
+    height: 100%;
+
+    transition: 1s;
+}
+
+.news-card .img-box {
+    flex: 1;
+
+}
+
+.news-card .description {
+    flex: 3;
+
+}
+
+.news-card img {
+    transition: 1s;
+
+}
+
+.news-card:hover img {
+    transform: scale(1.2);
+}
+
+.hr-left {
+    border: 2px solid rgb(135, 226, 135) !important;
+    opacity: 0.5 !important;
+    box-shadow: -5px 5px 20px 0 whitesmoke !important;
+}
+
+.hr-right {
+    border: 2px solid rgb(179, 94, 94) !important;
+    opacity: 0.7 !important;
+    box-shadow: -5px 5px 20px 0 whitesmoke !important;
+}
+
+.description hr {
+    transition: 0.5s;
+}
+
+.news-card:hover .description hr {
+
+    width: 175px;
+}
+
+.description .play-left:hover {
+    background-color: rgba(110, 187, 110, 0.8) !important;
+}
+
+.description .play-right:hover {
+    background-color: rgb(160, 85, 85) !important;
+}
+
+.card-span:hover {
+    background-color: rgba(245, 245, 245, 0.3) !important;
+
+}
+
+
+
+/* join*/
+
+.join-icon {
+    font-size: 75px;
+
+}
+.join-card img:hover{
+    box-shadow: 5px 5px 50px 0 rgba(245, 245, 245, 0.7) !important;
+
+}
+.join-card {
+    font-size: 20px;
+    background-color: rgba(245, 245, 245, 0.5);
+    border-radius: 80px !important;
+    box-shadow: -5px 5px 50px 0 rgba(246, 232, 232, 0.2) !important;
+}
+
+.shadow {
+    box-shadow: 1px 1px 10px 0 rgb(100, 180, 100) !important;
+}
+.join-card a{
+    text-decoration: none;
+    color: #3ac282;
+    
+    
+}
+.join-card a:hover{
+    color:  rgb(100, 180, 100);
+    text-decoration: underline;
+
+}
+
+/* .join-link{
+
+    color: #25c078
+    
+} */
+
+/* footer */
+.footer-img {
+    background-color:  rgba(245, 245, 245, 0.7);
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+
+}
+
+.footer-col hr,
+.copyright hr {
+
+
+    box-shadow: 1px 1px 10px 0px whitesmoke !important;
+}
+.footer-col p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.card {
+    border: none !important;
+}
+
+
+.footer-center ul li a {
+    color: green !important;
+
+}
+
+.footer-center ul li a:hover {
+    color: rgb(100, 180, 100) !important;
+
+}
+
+
+
+.footer-col ul li a:hover {
+    color: rgba(245, 245, 245, 0.7) !important;
+
+}
+
+
+.img-right{
+   
+    clip-path: polygon(7% 0, 100% 0, 100% 100%, 20% 100%);
+    height: 100% !important;
+}
+
+.img-left{
+
+    clip-path: polygon(0 0, 90% 0, 80% 100%, 0 100%);
+   
+}
+
+.copytooltip
+{
+    padding-left: 2px !important;
+    visibility: visible;
+ }
+
+.copytooltip .tooltip-inner {
+
+    background-color: rgba(245, 245, 245,0.6) !important;
+    color:#081e21;
+    border-top-left-radius: 0!important;
+    border-top-right-radius: 25px!important;
+    border-bottom-left-radius:25px !important;
+    border-bottom-right-radius:25px !important;
+    margin-top: 100px !important;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100px;
+
+ }
+
+
+.copytooltip .tooltip-arrow {
+   display: none;
+    
+  }
+
+@media (max-width :768px) {
+
+    .navbar-brand{
+
+        padding-right: 9px !important;
+        margin-right: 6px !important;
+      
+    }
+
+    .navbar-brand img {
+         margin-left: 1px !important;
+         margin-right: 8px !important;
+    }
+
+    .nav{
+
+        right: 10% !important;
+    }
+    .thanks{
+        max-width: 70vw; 
+        height:50vh;
+        margin: auto;
+        
+    }
+
+    .news-card{
+        flex-direction: column !important;
+        height: 82vh;
+        max-width: 88vw; 
+        margin: auto;
+        overflow: auto;
+    }
+
+    .news-card span{
+
+        transform: scale(0.7);
+        margin: 0px !important ;
+        text-align: center;
+        padding-left: 3px !important;
+        padding-right: 2px !important;
+    }
+
+     .news-card .img-box{
+    
+        min-height:35%;
+    }
+    
+     .news-card .description{
+        flex:1 !important;
+  
+
+    }
+
+    .img-right {
+        /* width: 100%; */
+        /* height: 300px; */
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
+
+        transition: 1s;
+    }
+
+    .img-left {
+        /* width: 100%; */
+        /* height: 300px; */
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
+
+        transition: 1s;
+    }
+
+
+
+
+}
